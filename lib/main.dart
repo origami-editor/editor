@@ -52,8 +52,9 @@ class _OrigamiPageState extends State<OrigamiPage> {
       TextButton(onPressed: (){}, child: Text("Git")),
       TextButton(onPressed: (){}, child: Text("Log")),
       TextButton(onPressed: (){}, child: Text("Power"))
-      ],),)
-      
+      ],),),
+      ElevatedButton(onPressed: (){}, child: Text("Open Editor port"),),
+      ElevatedButton(onPressed: (){}, child: Text("Authorize SSH keys"),)
       ],)
     );
   }
