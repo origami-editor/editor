@@ -46,9 +46,15 @@ class _OrigamiPageState extends State<OrigamiPage> {
       TextButton(onPressed: (){}, child: Text("Edit")),
       TextButton(onPressed: (){}, child: Text("View")),
       TextButton(onPressed: (){}, child: Text("Run")),
-      TextButton(onPressed: (){}, child: Text("Help"))
+      TextButton(onPressed: (){}, child: Text("Help")),
+       TextButton(onPressed: (){}, child: Text("Terminal")),
+      TextButton(onPressed: (){}, child: Text("Debug")),
+      TextButton(onPressed: (){}, child: Text("Git")),
+      TextButton(onPressed: (){}, child: Text("Log")),
+      TextButton(onPressed: (){}, child: Text("Power"))
+      ],),)
       
-      ],),)],)
+      ],)
     );
   }
 }
